@@ -44,6 +44,18 @@ form
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+/* Table Fix */
+table
+{
+  border-collapse: collapse;
+  width:100;
+}
+
+td
+{
+  padding: 8px;
+  vertical-align: middle;
+}
 /* Labels */
 label
 {
