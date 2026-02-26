@@ -44,7 +44,7 @@ td
 td:first-child
 {
   vertical-align: top;
-  front-weight: bold;
+  font-weight: bold;
 }
 /* Labels */
 label
