@@ -81,4 +81,17 @@ input[type="radio"]
   display: inline;
   margin-right: 8px;
 }
+
+.option-group
+{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.option-group input
+{
+  width: auto;
+  margin-right: 6px;
+}
   
