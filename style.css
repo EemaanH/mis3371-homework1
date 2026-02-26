@@ -99,4 +99,11 @@ tr
 {
   height: 50px;
 }
+
+/* Logo size */
+.logo
+{
+  width: 150px;
+  height: auto;
+}
  
