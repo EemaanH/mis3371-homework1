@@ -100,7 +100,7 @@ tr
   height: 50px;
 }
 
-#header
+#header, #todayDate
 {
   text-align: center;
   padding-top: 20px
