@@ -32,7 +32,7 @@ form
 table
 {
   border-collapse: collapse;
-  width:100;
+  width:100%;
 }
 
 td
@@ -43,14 +43,13 @@ td
 
 td:first-child
 {
-  vertical align: top;
+  vertical-align: top;
   front-weight: bold;
 }
 /* Labels */
 label
 {
   font-weight: bold;
-  display: block;
   margin-top: 15px;
 }
 
@@ -84,19 +83,15 @@ input[type="checkbox"],
 input[type="radio"]
 {
   width: auto;
-  display: inline;
+  display: inline-block;
   margin-right: 8px;
 }
 
 .option-group label
 {
   display: block;
-  white-spaceL nowrap;
-  margin-bottom: 6px;
-}
-
-.option-group label
-{
+  white-space: nowrap;
+  font-weight: normal;
   margin-right: 15px;
 }
 
