@@ -82,16 +82,14 @@ input[type="radio"]
   margin-right: 8px;
 }
 
-.option-group
+.option-group label
 {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+  display: block;
+  margin-bottom: 6px;
 }
 
-.option-group input
+.option-group label
 {
-  width: auto;
-  margin-right: 6px;
+  margin-right: 15px;
 }
   
