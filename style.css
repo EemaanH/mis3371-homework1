@@ -103,6 +103,7 @@ tr
 #header
 {
   text-align: center;
+  padding-top: 20px
 }
 
 /* Logo size */
@@ -110,7 +111,6 @@ tr
 {
   width: 150px;
   height: auto;
-  display: block;
   margin: 20px auto 10px auto;
 }
 
