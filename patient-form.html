@@ -269,32 +269,44 @@ Description:  basic Patient registration form (BETA)
 
         <!--Gender -->
         <tr>
-          <td align="right"><label>Gender</label></td>
+          <td align="right" valign="top">
+          <label>Gender</label>
+          </td>
           
           <td colspan="5">
-            <label><input type="radio" name="gender" value="male" required> Male</label><br>
-            <label><input type="radio" name="gender" value="female" required> Female</label><br>
+            <div class="option-group">
+            <label><input type="radio" name="gender" value="male" required> Male</label>
+            <label><input type="radio" name="gender" value="female" required> Female</label>
             <label><input type="radio" name="gender" value="other" required> Other</label>
+            </div>
           </td>
         </tr>
 
         <!--Vaccination Status -->
         <tr>
-          <td align="right"><label>Have you been vaccinated?</label></td>
+          <td align="right" valign="top">
+          <label>Have you been vaccinated?</label>
+          </td>
           
           <td colspan="5">
+            <div class="option-group">
             <label><input type="radio" name="vaccinated" value="yes" required> Yes</label>
             <label><input type="radio" name="vaccinated" value="no"> No</label>
+            </div>
           </td>
         </tr>
 
         <!--Insurance Status -->
         <tr>
-          <td align="right"><label>Do you have insurance?</label></td>
+          <td align="right" valign="top">
+          <label>Do you have insurance?</label>
+          </td>
           
           <td colspan="5">
+            <div class="option-group">
             <label><input type="radio" name="insurance" value="yes" required> Yes</label>
             <label><input type="radio" name="insurance" value="no"> No</label>
+            </div>
           </td>
         </tr>
 
