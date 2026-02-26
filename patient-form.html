@@ -221,6 +221,118 @@ Description:  basic Patient registration form (BETA)
         </td>
       </tr>
         
+<!--Slider Section -->
+      <tr>
+        <td align="right">Health Rating (1-10):</td>
+        <td colspan="5">
+          1
+          <input type="range"
+            name="health_rating"
+            min="1"
+            max="10"
+            value="5"
+            required>
+          10
+        </td>
+      </tr>
+
+        <!--Description of symptoms -->
+      <tr>
+          <td align="right">Describe your current symptoms:</td>
+          <td colspan="5">
+            <textarea name="symptoms"
+                      rows="3"
+                      cols="50"
+                      placeholder="Please describe any symptoms you are currently experiencing..."></textarea>
+          </td>
+      </tr>
+
+        <!--Medical History -->
+        <tr>
+          <td align="right">Medical History:</td>
+          <td colspan="5">
+            <input type="checkbox" name="history" value="diabetes"> Diabetes
+            <input type="checkbox" name="history" value="hypertension"> High Blood Pressure
+            <input type="checkbox" name="history" value="asthma"> Asthma
+            <input type="checkbox" name="history" value="heart"> Heart Disease
+            <input type="checkbox" name="history" value="allergies"> Allergies
+            <input type="checkbox" name="history" value="mental"> Depression/Anxiety
+            <input type="checkbox" name="history" value="arthritis"> Arthritis
+          </td>
+        </tr>
+
+        <!--Gender -->
+        <tr>
+          <td align="right">Gender:</td>
+          <td colspan="5">
+            <input type="radio" name="gender" value="male" required> Male
+            <input type="radio" name="gender" value="female" required> Female
+            <input type="radio" name="gender" value="other" required> Other
+          </td>
+        </tr>
+
+        <!--Vaccination Status -->
+        <tr>
+          <td align="right">Have you been vaccinated?</td>
+          <td colspan="5">
+            <input type="radio" name="vaccinated" value="yes" required>Yes
+            <input type="radio" name="vaccinated" value="no"> No
+          </td>
+        </tr>
+
+        <!--Insurance Status -->
+        <tr>
+          <td align="right">Do you have insurance?</td>
+          <td colspan="5">
+            <input type="radio" name="insurance" value="yes" required> Yes
+            <input type="radio" name="insurance" value="no"> No
+          </td>
+        </tr>
+
+        <!--User Account Information -->
+
+        <tr>
+          <td align="right">Create User ID:</td>
+          <td>
+            <input type="text"
+              name="userid"
+              maxlength="20"
+              placeholder="Choose a username"
+              required>
+          </td>
+        </tr>
+        
+        <tr>
+          <td align="right">Create Password:</td>
+          <td>
+            <input type="password"
+              name="password"
+              maxlength="20"
+              placeholder="Enter password"
+              required>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="right">Re-enter Password:</td>
+          <td>
+            <input type="password"
+              name="confirm_password"
+              maxlength="20"
+              placeholder="Re-enter password"
+              required>
+          </td>
+        </tr>
+        
+        <!--Reset AND Submit button -->
+
+        <tr>
+          <td colspan="6" align="center"
+            <input type="reset" value="CLEAR AND START OVER">
+            &nbsp;&nbsp;&nbsp;
+            <input type="submit" value="Submit">
+          </td>
+        </tr>
       </table>
     </form>
   </div>
