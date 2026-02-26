@@ -33,31 +33,36 @@ Description:  basic Patient registration form (BETA)
       <table>
 
   <!--NAME ROW -->
-<div class="name-row">
-        
-        <div class="name-field">
-          <label for="firstname">First Name</label>
-          <input type="text" size="25" maxlength="30" 
+
+        <tr>
+        <td align="right">
+        <label for="firstname">First Name</label>
+        </td>
+        <td>
+        <input type="text" size="25" maxlength="30" 
             id="firstname" name="firstname"
             placeholder="(John/Jane)"
             required>
-        </div>
+        </td>
 
-        <div class="name-field">
-          <label for="middleinitial">MI</label>
-           <input type="text" size="1" maxlength="1" 
-            id="middleinitial" name="middleinitial"> 
-        </div>
+        <td align="right">
+        <label for="middleinitial">Middle Initial</label>
+        </td>
+        <td>
+          <input type="text" size="1" maxlength="1" 
+            id="middleinitial" name="middleinitial">
+        </td> 
 
-        <div class="name-field">
-          <label for="lastname">Last Name</label>
-          <input type="text" size="25" maxlength="30" 
+        <td align="right">
+        <label for="lastname">Last Name</label>
+        </td>
+        <td>
+        <input type="text" size="25" maxlength="30" 
             id="lastname" name="lastname"
             placeholder="Doe"
             required>
-        </div>
-
-      </div>
+        </td>
+        </tr>
 <!--DOB & SSN -->
         <tr>
           <td align= "right">
