@@ -40,6 +40,12 @@ td
   padding: 8px;
   vertical-align: top;
 }
+
+td:first-child
+{
+  vertical align: top;
+  front-weight: bold;
+}
 /* Labels */
 label
 {
