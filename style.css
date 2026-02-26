@@ -72,4 +72,12 @@ input[type="submit"]:hover
 {
   background-color: #2a4d69;
 }
+
+/*Checkbox & radio fix */
+input[type="checkbox"],
+input[type="radio"]
+{
+  width: auto;
+  margin-right: 8px;
+}
   
