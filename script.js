@@ -11,4 +11,4 @@ const options =
 };
 
 document.getElementById("todayDate").innerHTML =
-  "Today is: " + today.toLocalDateString("en-US, options);
+  "Today is: " + today.toLocaleDateString("en-US", options);
