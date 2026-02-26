@@ -12,6 +12,22 @@ h1
   color: #367588;
 }
 
+.name-row
+{
+  display: flex;
+  gap: 10px;
+}
+
+.name-field
+{
+  flex: 1;
+}
+
+.name-field input
+{
+  width: 100%;
+}
+
 /*Form box */
 form 
 {
