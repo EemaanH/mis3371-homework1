@@ -18,15 +18,13 @@ Description:  basic Patient registration form (BETA)
 <!--HEADER -->
   <div id="header">
     
-  <img src="Logo.png" alt="Medical Logo" width="90">
+  <img src="Logo.png" alt="Medical Logo">
     
   <h1>HealthIsWealth Medical</h1>
     
   <p id="todayDate"></p>
   
 </div>
-
-<script src="script.js"></script>
 
 <!--FORM SECTION -->
   <div id="main">
@@ -202,15 +200,18 @@ Description:  basic Patient registration form (BETA)
         </tr>
 
         <tr>
-          <td align="right">Email:</tr>
+          <td align="right">Email:</td>
           <td>
             <input type="email"
               name="email"
+              size="25"
               maxlength="50"
               placeholder="name@gmail.com"
               required>
             </td>
+        </tr>
 
+        <tr>
         <td align="right">Phone:</td>
         <td>
           <input type="text"
@@ -327,14 +328,18 @@ Description:  basic Patient registration form (BETA)
         <!--Reset AND Submit button -->
 
         <tr>
-          <td colspan="6" align="center"
+          <td colspan="6" align="center">
             <input type="reset" value="CLEAR AND START OVER">
             &nbsp;&nbsp;&nbsp;
             <input type="submit" value="Submit">
           </td>
         </tr>
 
-        <!--Footer -->
+      </table>
+    </form>
+  </div>
+
+  <!--Footer -->
         <div id="footer">
           <p><strong>HealthIsWealth Medical</strong></p>
 
@@ -347,9 +352,10 @@ Description:  basic Patient registration form (BETA)
           <br><br>
 
           <a href="#">Facebook</a> |
-          <a hred="#">Instagram</a>
+          <a href="#">Instagram</a>
 
         </div>
-      </table>
-    </form>
-  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
