@@ -9,17 +9,17 @@ body
 h1
 {
   text-align: center;
-  color: ##367588;
+  color: #367588;
 }
 
 /*Form box */
 form 
 {
   width: 60%
-  margin: 30 px auto;
+  margin: 30px auto;
   background: white;
   padding: 35px;
-  border-radius: 10 px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -34,8 +34,8 @@ label
 /* Input */
 input,select
 {
-  width: 100%
-  padding: 10px
+  width: 100%;
+  padding: 10px;
   margin-top: 5px;
   border-radius: 6px;
   border: 1px solid #ccc;
