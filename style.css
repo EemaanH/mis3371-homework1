@@ -17,24 +17,6 @@ h1
   color: #367588;
 }
 
-.name-row
-{
-  display: flex;
-  gap: 10px;
-  width: 100%;
-  justify-content: center;
-}
-
-.name-field:nth-child(2)
-{
-  flex: 0.25;
-}
-
-.name-field input
-{
-  width: 100%;
-}
-
 /*Form box */
 form 
 {
