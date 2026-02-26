@@ -98,4 +98,9 @@ input[type="radio"]
 {
   margin-right: 15px;
 }
-  
+
+tr
+{
+  height: 50px;
+}
+ 
