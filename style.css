@@ -1,3 +1,8 @@
+*
+{
+  box-sizing: border-box;
+}
+
 body 
 {
   font-family: Arial, sans-serif;
@@ -18,9 +23,9 @@ h1
   gap: 10px;
 }
 
-.name-field
+.name-field:nth-child(2)
 {
-  flex: 1;
+  flex: 0.25;
 }
 
 .name-field input
@@ -69,6 +74,6 @@ input[type="submit"]
 
 input[type="submit"]:hover
 {
-  background-color: #FAF9F6;
+  background-color: #2a4d69;
 }
   
